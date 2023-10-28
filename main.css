@@ -112,3 +112,7 @@ body {
 .box .register .a {
     color: #eab8c8;
 }
+
+#myAudio{
+    display: none;
+}
