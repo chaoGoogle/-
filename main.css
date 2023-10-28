@@ -1,105 +1,113 @@
- * {
-            margin: 0;
-            padding: 0;
-            text-decoration: none;
-            list-style: none;
-        }
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
 
-        body {
-       
-            background-size: cover;
-            background-repeat: no-repeat;
+body {
 
-            /* background-image: url(./IMG_20231014_183145.jpg); */
+    /* 设置背景图片的大小为完全覆盖，不重复 */
+    background-size: cover;
 
-            FILTER: Alpha(style=1, opacity=25, finishOpacity=100,
-                    startX=50, finishX=100, startY=50, finishY=100);
-            background-color: skyblue;
+    /* 设置背景图片的重复方式为不重复 */
+    background-repeat: no-repeat;
 
-        }
+    /* 设置滤镜效果，包括Alpha、opacity、finishOpacity、startX、finishX、startY、finishY */
+    filter: Alpha(style=1, opacity=25, finishOpacity=100,
+    startX=50, finishX=100, startY=50, finishY=100);
 
-        /* 登录背景盒子 */
-        .box {
-            position: absolute;
-            flex-direction: column;
-            
-            top: 16%;
-            left: 35%;
-            display: flex;
-            width: 400px;
-            height: 500px;
-
-            background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
-            border-radius: 20px;
+    /* 设置背景颜色为天蓝色 */
+    background-color: skyblue;
 
 
-        }
+}
 
-        /* 登录这个字 */
-        .box .denglu {
-            width: 100px;
-            height: 30px;
-            position: absolute;
-            top: 15%;
-            left: 40%;
-            font-size: 50px;
+/* 登录背景盒子 */
+.box {
+    /* 设置元素的位置、旋转和缩放 */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 
-        }
+    /* 设置元素的宽度和高度，并设置边框半径 */
+    width: 400px;
+    height: 500px;
+    border-radius: 20px;
 
-        /* 输入账户框 */
-        .box .text {
-            background: transparent;
-            position: absolute;
-            top: 40%;
-            left: 18%;
-            width: 250px;
-            height: 40px;
-            border: transparent;
-            border-bottom: 2px solid pink;
-            outline: none;
+    /* 设置元素的显示方式为flex布局，并居中显示 */
+    display: flex;
+    justify-content: center;
 
-        }
+    /* 设置背景颜色为从上到下的渐变，颜色为浅蓝色和深蓝色 */
+    background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
 
-        /* 输入密码框 */
-        .box .passwd {
-            background: transparent;
-            position: absolute;
-            top: 55%;
-            left: 18%;
-            width: 250px;
-            height: 40px;
-
-            border: transparent;
-            border-bottom: 2px solid pink;
-            outline: none;
-        }
-
-        /* 登录按钮 */
-        .box .bt {
-            background: transparent;
-            position: absolute;
-            top: 70%;
-            left: 18%;
-            width: 250px;
-            height: 40px;
-            background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
-            border-radius: 20px;
-
-            border: transparent;
-            outline: none;
+}
 
 
+/* 登录这个字 */
+.box .denglu {
+    width: 100px;
+    height: 30px;
+    position: absolute;
+    top: 15%;
+    left: 40%;
+    font-size: 50px;
 
-        }
+}
 
-        /* 注册 */
-        .box .zhuce {
-            position: absolute;
-            top: 80%;
-            left: 33%;
+/* 输入账户框 */
+.box .text {
+    background: transparent;
+    position: absolute;
+    top: 40%;
+    left: 18%;
+    width: 250px;
+    height: 40px;
+    border: transparent;
+    border-bottom: 2px solid pink;
+    outline: none;
 
-        }
+}
 
-        .box .zhuce .a {
-            color: #eab8c8;
-        }
+/* 输入密码框 */
+.box .passwd {
+    background: transparent;
+    position: absolute;
+    top: 55%;
+    left: 18%;
+    width: 250px;
+    height: 40px;
+
+    border: transparent;
+    border-bottom: 2px solid pink;
+    outline: none;
+}
+
+/* 登录按钮 */
+.box .bt {
+    position: absolute;
+    top: 70%;
+    left: 18%;
+    width: 250px;
+    height: 40px;
+    background: transparent linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+    border-radius: 20px;
+    border: transparent;
+    outline: none;
+
+
+}
+
+/* 注册 */
+.box .zhuce {
+    position: absolute;
+    top: 80%;
+    left: 33%;
+
+}
+
+.box .zhuce .a {
+    color: #eab8c8;
+}
