@@ -1,119 +1,105 @@
-* {
-    padding: 0;
-    margin: 0;
+ * {
+            margin: 0;
+            padding: 0;
+            text-decoration: none;
+            list-style: none;
+        }
 
-}
+        body {
+       
+            background-size: cover;
+            background-repeat: no-repeat;
 
-div .music{
-	position: fixed;
-	top: 20px;
-	left: 50%;
-	
-}
-.div {
+            /* background-image: url(./IMG_20231014_183145.jpg); */
 
-    position: fixed;
-    border-radius: 18px;
-    margin-left: 1000px;
-    margin-top: 50px;
-    padding-top: 2px;
-    width: 400px;
-    height: 500px;
-    background: linear-gradient(to bottom right, lightblue, pink);
-    /* 悬浮 */
-    position: fixed;
-    top: 80px;
-    right: 100px;
-}
+            FILTER: Alpha(style=1, opacity=25, finishOpacity=100,
+                    startX=50, finishX=100, startY=50, finishY=100);
+            background-color: skyblue;
 
-div .imgico1 {
-    /* 设置圆角 */
-    border-radius: 100%;
-    width: 46px;
-    height: 46px;
-    position: fixed;
-    top: 270px;
-    right: 400px;
-}
+        }
 
-div .imgico2 {
+        /* 登录背景盒子 */
+        .box {
+            position: absolute;
+            flex-direction: column;
+            
+            top: 16%;
+            left: 35%;
+            display: flex;
+            width: 400px;
+            height: 500px;
 
-    /* 设置圆角 */
-    border-radius: 100%;
-    width: 46px;
-    height: 46px;
-    position: fixed;
-    top: 354px;
-    right: 400px;
-}
-
-body img {
-    object-fit: cover;
-    width: 100%;
-    height: 100%;
-    background-repeat: repeat;
-    background-image: url("./imags/IMG_20231014_183145.jpg");
-    background-attachment: fixed;
-}
-
-.div2 p {
-    color: lightsalmon;
-    font-family: "鸿蒙";
-    font-size: 50px;
-    margin-top: 30px;
-    margin-bottom: 40px;
-    text-align: center;
-
-}
-
-.denglu {
-    padding: 0 0 50px 50px;
-    width: 30px;
-    height: 80px;
-    margin-bottom: 50px;
-}
-
-div input {
-
-    width: 300px;
-    height: 45px;
-    /* 边界属性 */
-    border: 2px solid white;
-    /* 轮廓 */
-    outline: none;
-    /* 字体居中 */
-    text-align: center;
-    /* 字体 */
-    font-family: "鸿蒙", serif;
-    /* 圆角 */
-    border-radius: 18px;
-    /* 外边距 */
-    margin-bottom: 36px;
-    /* 背景透明 */
-    background-color: transparent;
-
-}
-
-@font-face {
-    font-family: "鸿蒙";
-    src: url('fontlib/HarmonyOS_Sans.ttf');
-}
+            background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
+            border-radius: 20px;
 
 
-/*TODO 是一个点击按钮*/
-/* div .tongyi{
- 	-webkit-appearance: radio;
-	 margin-left: 50px;
-	margin-top: 30px ; 
-	 width: 20px;
-	height: 20px; 
- } */
+        }
 
-#button {
-    margin-left: 50px;
-    font-size: 15px;
-    /* background-image: linear-gradient(to right, #e4afcb 0%, #b8cbb8 0%,
-    #b8cbb8 0%, #e2c58b 30%, #c2ce9c 64%, #7edbdc 100%); */
-    /* background-image: linear-gradient(to right, #ebbba7 0%, #cfc7f8 100%); */
-    background: aliceblue linear-gradient(to right, #a1c4fd 0%, #c2e9fb 100%);
-}
+        /* 登录这个字 */
+        .box .denglu {
+            width: 100px;
+            height: 30px;
+            position: absolute;
+            top: 15%;
+            left: 40%;
+            font-size: 50px;
+
+        }
+
+        /* 输入账户框 */
+        .box .text {
+            background: transparent;
+            position: absolute;
+            top: 40%;
+            left: 18%;
+            width: 250px;
+            height: 40px;
+            border: transparent;
+            border-bottom: 2px solid pink;
+            outline: none;
+
+        }
+
+        /* 输入密码框 */
+        .box .passwd {
+            background: transparent;
+            position: absolute;
+            top: 55%;
+            left: 18%;
+            width: 250px;
+            height: 40px;
+
+            border: transparent;
+            border-bottom: 2px solid pink;
+            outline: none;
+        }
+
+        /* 登录按钮 */
+        .box .bt {
+            background: transparent;
+            position: absolute;
+            top: 70%;
+            left: 18%;
+            width: 250px;
+            height: 40px;
+            background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+            border-radius: 20px;
+
+            border: transparent;
+            outline: none;
+
+
+
+        }
+
+        /* 注册 */
+        .box .zhuce {
+            position: absolute;
+            top: 80%;
+            left: 33%;
+
+        }
+
+        .box .zhuce .a {
+            color: #eab8c8;
+        }
