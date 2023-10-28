@@ -47,7 +47,7 @@ body {
 
 
 /* 登录这个字 */
-.box .denglu {
+.box .login {
     width: 100px;
     height: 30px;
     position: absolute;
@@ -58,7 +58,7 @@ body {
 }
 
 /* 输入账户框 */
-.box .text {
+.box .username {
     background: transparent;
     position: absolute;
     top: 40%;
@@ -72,21 +72,20 @@ body {
 }
 
 /* 输入密码框 */
-.box .passwd {
+.box .password {
     background: transparent;
     position: absolute;
     top: 55%;
     left: 18%;
     width: 250px;
     height: 40px;
-
     border: transparent;
     border-bottom: 2px solid pink;
     outline: none;
 }
 
 /* 登录按钮 */
-.box .bt {
+.box .button {
     position: absolute;
     top: 70%;
     left: 18%;
@@ -96,18 +95,21 @@ body {
     border-radius: 20px;
     border: transparent;
     outline: none;
+    transition: background-color 0.6s;
+}
 
-
+.button:hover {
+    background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
 }
 
 /* 注册 */
-.box .zhuce {
+.box .register {
     position: absolute;
     top: 80%;
     left: 33%;
 
 }
 
-.box .zhuce .a {
+.box .register .a {
     color: #eab8c8;
 }
