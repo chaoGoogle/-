@@ -13,10 +13,6 @@ body {
     /* 设置背景图片的重复方式为不重复 */
     background-repeat: no-repeat;
 
-    /* 设置滤镜效果，包括Alpha、opacity、finishOpacity、startX、finishX、startY、finishY */
-    filter: Alpha(style=1, opacity=25, finishOpacity=100,
-    startX=50, finishX=100, startY=50, finishY=100);
-
     /* 设置背景颜色为天蓝色 */
     background-color: skyblue;
 
