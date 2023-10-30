@@ -9,6 +9,7 @@
 /* 导航栏样式 */
 nav {
     height: 80px;
+    width: 100%;
     /*background-color: #7b7bbb;*/
     background-image: url(imags/bjtop.jpg);
     background-repeat: no-repeat;
@@ -17,9 +18,13 @@ nav {
 
 /* 导航栏内列表样式 */
 .nav {
+
     width: 50%;
     float: right;
-    margin-left: 50%;
+    position: absolute;
+
+    left: 50%;
+    /*margin-left: 50%;*/
 }
 
 /* 导航栏内列表项样式 */
@@ -32,31 +37,37 @@ nav {
 
 /* 鼠标悬停时列表项背景颜色 */
 li:hover {
-
-
+    backdrop-filter: blur(6px);
 }
 
 /* 链接样式 */
 a {
     display: inline-block;
-    width: 150px;
+    width: 100%;
+
     /*padding-left: 10px;*/
     /*padding-right: 10px;*/
-    color: #ffffff;
+    /*color: #ffffff;*/
     text-decoration: none;
+    color: #37e1e1;
 }
 
-/* 响应式设计 */
-/* 当屏幕宽度小于等于768像素时，导航栏内列表项宽度调整为100%，列表项水平排列 */
+/*!* 响应式设计 *!*/
+/*!* 当屏幕宽度小于等于768像素时，导航栏内列表项宽度调整为100%，列表项水平排列 *!*/
 @media screen and (max-width: 768px) {
     .nav {
         width: 100%;
-        float: none;
+        position: absolute;
+
+        left: 80%;
         margin: 0;
+        background-color: #a5c8d7;
+
     }
 
     .nav li {
-        width: 100%;
+
+        /*width: 50%;*/
         float: none;
         margin: 0;
         padding: 0;
@@ -64,6 +75,48 @@ a {
 
     /* 当鼠标悬停在列表项上时，背景颜色变为透明 */
     li:hover {
-        background-color: transparent;
+        /*background-color: transparent;*/
+        /* backdrop-filter: blur(6px);*/
+        background-color: pink;
     }
+
+
+    a {
+        display: inline-block;
+        text-align: center;
+        width: 100%;
+        text-decoration: none;
+        color: #29b442;
+    }
+
 }
+
+body {
+    background-color: #f5f5f5;
+}
+
+
+/* 响应式设计 */
+/* 当屏幕宽度小于等于768像素时，导航栏内列表项宽度调整为100%，列表项水平排列 */
+
+
+/* 当屏幕宽度大于768像素时，导航栏内列表项宽度调整为20%，列表项水平排列 */
+/*@media screen and (min-width: 769px) {*/
+/*    .nav {*/
+/*        width: 20%;*/
+/*        float: right;*/
+/*        margin-left: 50%;*/
+/*    }*/
+
+/*    .nav li {*/
+/*        width: 20%;*/
+/*        float: left;*/
+/*        margin-bottom: 10px;*/
+/*    }*/
+
+/*    a {*/
+/*        width: 100%;*/
+/*        text-decoration: none;*/
+/*        color: #37e1e1;*/
+/*    }*/
+/*}*/
