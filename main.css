@@ -126,7 +126,7 @@ body {}
     font-weight: 400;
     color: whitesmoke;
     font-size: 20px;
-    font-family: "宋体";
+    font-family: "HarmonyOS Sans Black", serif;
     /* 设置元素不能被点击 */
     pointer-events: none;
 }
@@ -147,7 +147,7 @@ article div span {
     height: 20px;
     width: 60%;
     margin: 0;
-    font-family: "宋体", serif;
+    font-family: "HarmonyOS Sans Black", serif;
     font-size: 50px;
 }
 
@@ -159,4 +159,8 @@ article div span {
     font-size: 24px;
     font-weight: bold;
     background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+}
+@font-face {
+    font-family: 'HarmonyOS Sans Black';
+  src: url("HarmonyOS_Sans.ttf");
 }
