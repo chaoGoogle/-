@@ -26,7 +26,6 @@ nav {
     width: 50%;
     float: right;
     position: absolute;
-
     left: 50%;
     /*margin-left: 50%;*/
 }
@@ -42,20 +41,20 @@ nav {
 /* 鼠标悬停时列表项背景颜色 */
 li:hover {
     backdrop-filter: blur(5px);
-    transition: all 0.5s;
-
+    transition: all 0.7s;
+    background-color: rgba(255, 255, 255, 0.5);
+     width: 20%;
+    height: 15%;
 }
 
 /* 链接样式 */
 a {
     display: inline-block;
     width: 100%;
-
-    /*padding-left: 10px;*/
-    /*padding-right: 10px;*/
-    /*color: #ffffff;*/
+    height: 100%;
     text-decoration: none;
-    color: #37e1e1;
+    /*color: #37e1e1;*/
+    color: white;
 }
 
 /*!* 响应式设计 *!*/
@@ -92,12 +91,10 @@ a {
         width: 100%;
         text-decoration: none;
         color: #29b442;
+
     }
 
 }
-
-body {}
-
 
 .nav li:nth-child(6) {
     position: absolute;
@@ -141,12 +138,12 @@ article div {
 
 article div span {
 
-    display: inline-block;
+    display: block;
     justify-content: center;
     align-items: center;
+    left: 50%;
     height: 20px;
-    width: 60%;
-    margin: 0;
+    margin: 0 auto;
     font-family: "HarmonyOS Sans Black", serif;
     font-size: 50px;
 }
@@ -156,11 +153,13 @@ article div span {
     justify-content: center;
     align-items: center;
     height: 100%;
-    font-size: 24px;
+    width: 100%;
     font-weight: bold;
-    background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+    /*background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);*/
+     background: linear-gradient(to bottom, #1abc9c, #3498db);
 }
+
 @font-face {
     font-family: 'HarmonyOS Sans Black';
-  src: url("HarmonyOS_Sans.ttf");
+    src: url("HarmonyOS_Sans.ttf");
 }
