@@ -1,116 +1,69 @@
+/* 通用样式 */
 * {
-    margin: 0;
     padding: 0;
+    margin: 0;
     text-decoration: none;
     list-style: none;
 }
 
-body {
-
-    /* 设置背景图片的大小为完全覆盖，不重复 */
-    background-size: cover;
-
-    /* 设置背景图片的重复方式为不重复 */
+/* 导航栏样式 */
+nav {
+    height: 80px;
+    /*background-color: #7b7bbb;*/
+    background-image: url(imags/bjtop.jpg);
     background-repeat: no-repeat;
+    background-size: cover;
+}
 
-    /* 设置背景颜色为天蓝色 */
-    background-color: skyblue;
+/* 导航栏内列表样式 */
+.nav {
+    width: 50%;
+    float: right;
+    margin-left: 50%;
+}
+
+/* 导航栏内列表项样式 */
+.nav li {
+    width: 20%;
+    float: left;
+    line-height: 80px;
+    text-align: center;
+}
+
+/* 鼠标悬停时列表项背景颜色 */
+li:hover {
+
 
 }
 
-/* 登录背景盒子 */
-.box {
-    /* 设置元素的位置、旋转和缩放 */
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-
-    /* 设置元素的宽度和高度，并设置边框半径 */
-    width: 400px;
-    height: 500px;
-    border-radius: 20px;
-
-    /* 设置元素的显示方式为flex布局，并居中显示 */
-    display: flex;
-    justify-content: center;
-
-    /* 设置背景颜色为从上到下的渐变，颜色为浅蓝色和深蓝色 */
-    background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
-
+/* 链接样式 */
+a {
+    display: inline-block;
+    width: 150px;
+    /*padding-left: 10px;*/
+    /*padding-right: 10px;*/
+    color: #ffffff;
+    text-decoration: none;
 }
 
+/* 响应式设计 */
+/* 当屏幕宽度小于等于768像素时，导航栏内列表项宽度调整为100%，列表项水平排列 */
+@media screen and (max-width: 768px) {
+    .nav {
+        width: 100%;
+        float: none;
+        margin: 0;
+    }
 
-/* 登录这个字 */
-.box .login {
-    width: 100px;
-    height: 30px;
-    position: absolute;
-    top: 15%;
-    left: 40%;
-    font-size: 50px;
+    .nav li {
+        width: 100%;
+        float: none;
+        margin: 0;
+        padding: 0;
+    }
 
-}
-
-/* 输入账户框 */
-.box .username {
-    background: transparent;
-    position: absolute;
-    top: 40%;
-    left: 18%;
-    width: 250px;
-    height: 40px;
-    border: transparent;
-    border-bottom: 2px solid pink;
-    outline: none;
-
-}
-
-/* 输入密码框 */
-.box .password {
-    background: transparent;
-    position: absolute;
-    top: 55%;
-    left: 18%;
-    width: 250px;
-    height: 40px;
-    border: transparent;
-    border-bottom: 2px solid pink;
-    outline: none;
-}
-
-/* 登录按钮 */
-.box .button {
-    position: absolute;
-    top: 70%;
-    left: 18%;
-    width: 250px;
-    height: 40px;
-    background: transparent linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
-    border-radius: 20px;
-    border: transparent;
-    outline: none;
-    transition: background-color 0.6s;
-}
-
-.button:hover {
-    background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
-}
-
-/* 注册 */
-.box .register {
-    position: absolute;
-    top: 80%;
-    left: 33%;
-
-}
-
-/* 设置鼠标点击登录颜色 */
-.box .register .a {
-	color: #eab8c8;
-}
-
-/* 设置音乐不可见 */
-#myAudio {
-	display: none;
+    /* 当鼠标悬停在列表项上时，背景颜色变为透明 */
+    li:hover {
+        background-color: transparent;
+    }
 }
