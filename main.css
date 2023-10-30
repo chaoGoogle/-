@@ -4,13 +4,17 @@
     margin: 0;
     text-decoration: none;
     list-style: none;
+
 }
 
 /* 导航栏样式 */
 nav {
-    height: 80px;
+    /*opacity: 0.5;*/
+    float: left;
+    position: fixed;
+    top: 0.5%;
+    height: 70px;
     width: 100%;
-    /*background-color: #7b7bbb;*/
     background-image: url(imags/bjtop.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -31,13 +35,15 @@ nav {
 .nav li {
     width: 20%;
     float: left;
-    line-height: 80px;
+    line-height: 70px;
     text-align: center;
 }
 
 /* 鼠标悬停时列表项背景颜色 */
 li:hover {
-    backdrop-filter: blur(6px);
+    backdrop-filter: blur(5px);
+    transition: all 0.5s;
+
 }
 
 /* 链接样式 */
@@ -58,7 +64,6 @@ a {
     .nav {
         width: 100%;
         position: absolute;
-
         left: 80%;
         margin: 0;
         background-color: #a5c8d7;
@@ -91,7 +96,67 @@ a {
 
 }
 
-body {
-    background-color: #f5f5f5;
+body {}
+
+
+.nav li:nth-child(6) {
+    position: absolute;
+    top: 6%;
+    left: -80%;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-image: url(imags/toux.png);
 }
 
+/* 设置.nav li的8个元素中的第7个元素的样式 */
+.nav li:nth-child(7) {
+    /* 将float设置为left，使元素水平置顶 */
+    float: left;
+    /* 将position设置为absolute，使元素相对于父元素定位 */
+    position: absolute;
+    /* 将top设置为5%，使元素距离父元素顶部5% */
+    top: 5%;
+    /* 将left设置为-65%，使元素距离父元素左侧65% */
+    left: -65%;
+    /* 设置元素宽度为100px，高度为30px */
+    width: 100px;
+    height: 30px;
+    /* 设置字体加粗，颜色为白色，字体大小为20px，字体为"宋体"，防止元素被点击时产生事件 */
+    font-weight: 400;
+    color: whitesmoke;
+    font-size: 20px;
+    font-family: "宋体";
+    /* 设置元素不能被点击 */
+    pointer-events: none;
+}
+
+/*中心内容区*/
+article div {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -999;
+}
+
+article div span {
+
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    height: 20px;
+    width: 60%;
+    margin: 0;
+    font-family: "宋体", serif;
+    font-size: 50px;
+}
+
+.welcome {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    font-size: 24px;
+    font-weight: bold;
+    background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+}

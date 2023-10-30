@@ -14,5 +14,3 @@ if ('cache' in navigator) {
     navigator.cache.clear();
 }
 
-
-
