@@ -48,7 +48,7 @@ a {
 
 /* 响应式设计 */
 /* 当屏幕宽度小于等于768像素时，导航栏内列表项宽度调整为100%，列表项水平排列 */
-@media screen and (max-height: 768px) {
+@media screen and (max-width: 768px) {
     .nav {
         width: 100%;
         float: none;
