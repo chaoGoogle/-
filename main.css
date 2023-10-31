@@ -18,6 +18,7 @@ nav {
     background-image: url(imags/bjtop.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+      font-family: HarmonyOS, serif;
 }
 
 /* 导航栏内列表样式 */
@@ -46,7 +47,9 @@ li:hover {
     width: 20%;
     height: 15%;
 }
-
+.nav li a:hover{
+    color: #37e1e1;
+}
 /* 链接样式 */
 a {
     display: inline-block;
@@ -96,15 +99,17 @@ a {
 
 }
 
+/* 设置导航栏中第6个列表项的位置、大小、边框半径和背景图片 */
 .nav li:nth-child(6) {
-    position: absolute;
-    top: 6%;
-    left: -80%;
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
-    background-image: url(imags/toux.png);
+   position: absolute;
+   top: 6%;
+   left: -80%;
+   width: 60px;
+   height: 60px;
+   border-radius: 50%;
+   background-image: url(imags/toux.png);
 }
+
 
 /* 设置.nav li的8个元素中的第7个元素的样式 */
 .nav li:nth-child(7) {
@@ -115,15 +120,15 @@ a {
     /* 将top设置为5%，使元素距离父元素顶部5% */
     top: 5%;
     /* 将left设置为-65%，使元素距离父元素左侧65% */
-    left: -65%;
+    left: -70%;
     /* 设置元素宽度为100px，高度为30px */
     width: 100px;
     height: 30px;
-    /* 设置字体加粗，颜色为白色，字体大小为20px，字体为"宋体"，防止元素被点击时产生事件 */
+    /* 设置字体加粗，颜色为白色，字体大小为20px，字体为"鸿蒙"，防止元素被点击时产生事件 */
     font-weight: 400;
     color: whitesmoke;
     font-size: 20px;
-    font-family: "HarmonyOS Sans Black", serif;
+    font-family: "HarmonyOS", serif;
     /* 设置元素不能被点击 */
     pointer-events: none;
 }
@@ -161,30 +166,34 @@ article div {
     z-index: -999;
 }
 
+/* 设置文章中段落内文字的显示方式、居中方式、对齐方式、水平居中和垂直居中、字体和字体大小 */
 article div span {
-
-    display: block;
-    justify-content: center;
-    align-items: center;
-    left: 50%;
-    height: 20px;
-    margin: 0 auto;
-    font-family: "HarmonyOS Sans Black", serif;
-    font-size: 50px;
+   display: block;
+   justify-content: center;
+   align-items: center;
+   left: 50%;
+   height: 20px;
+   margin: 0 auto;
+   font-family: "HarmonyOS", serif;
+   font-size: 50px;
 }
 
+
+
+/* 设置欢迎页面的显示方式、居中方式、对齐方式、宽度、高度、字体加粗和背景图片 */
 .welcome {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-    width: 100%;
-    font-weight: bold;
-    /*background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);*/
-    background: linear-gradient(to bottom, #1abc9c, #3498db);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 100%;
+   height: 1000px;
+   font-weight: bold;
+   background-image: url(imags/bjnrq.jpg);
+   background-repeat: no-repeat;
 }
+
 
 @font-face {
-    font-family: 'HarmonyOS Sans Black';
+    font-family: 'HarmonyOS';
     src: url("HarmonyOS_Sans.ttf");
 }
