@@ -15,10 +15,10 @@ nav {
     top: 0.5%;
     height: 70px;
     width: 100%;
-    background-image: url(imags/bjtop.jpg);
+    /*background-image: url(imags/bjtop.jpg);*/
     background-repeat: no-repeat;
     background-size: cover;
-      font-family: HarmonyOS, serif;
+    font-family: HarmonyOS, serif;
 }
 
 /* 导航栏内列表样式 */
@@ -47,9 +47,11 @@ li:hover {
     width: 20%;
     height: 15%;
 }
-.nav li a:hover{
+
+.nav li a:hover {
     color: #37e1e1;
 }
+
 /* 链接样式 */
 a {
     display: inline-block;
@@ -101,17 +103,17 @@ a {
 
 /* 设置导航栏中第6个列表项的位置、大小、边框半径和背景图片 */
 .nav li:nth-child(6) {
-   position: absolute;
-   top: 6%;
-   left: -80%;
-   width: 60px;
-   height: 60px;
-   border-radius: 50%;
-   background-image: url(imags/toux.png);
+    position: absolute;
+    top: 6%;
+    left: -80%;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-image: url(imags/toux.png);
 }
 
 
-/* 设置.nav li的8个元素中的第7个元素的样式 */
+/* 设置.nav li的第7个元素的样式 */
 .nav li:nth-child(7) {
     /* 将float设置为left，使元素水平置顶 */
     float: left;
@@ -143,7 +145,7 @@ a {
     outline: none;
     border: transparent;
     background-image: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
-
+    padding-left: 5px;
 }
 
 .tijiao {
@@ -168,28 +170,26 @@ article div {
 
 /* 设置文章中段落内文字的显示方式、居中方式、对齐方式、水平居中和垂直居中、字体和字体大小 */
 article div span {
-   display: block;
-   justify-content: center;
-   align-items: center;
-   left: 50%;
-   height: 20px;
-   margin: 0 auto;
-   font-family: "HarmonyOS", serif;
-   font-size: 50px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    left: 50%;
+    height: 20px;
+    margin: 0 auto;
+    font-family: "HarmonyOS", serif;
+    font-size: 50px;
 }
-
-
 
 /* 设置欢迎页面的显示方式、居中方式、对齐方式、宽度、高度、字体加粗和背景图片 */
 .welcome {
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   width: 100%;
-   height: 1000px;
-   font-weight: bold;
-   background-image: url(imags/bjnrq.jpg);
-   background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 1000px;
+    font-weight: bold;
+    background-image: url(imags/bjnrq.jpg);
+    background-repeat: no-repeat;
 }
 
 
