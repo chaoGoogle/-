@@ -1,10 +1,52 @@
 <!DOCTYPE html>
-<html lang="zh">
+<html lang="zh ">
+
 <head>
+    <meta content="no-cache" http-equiv="pragram">
+    <meta content="no-cache, no-store, must-revalidate" http-equiv="cache-control">
+    <meta content="0" http-equiv="expires">
     <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <title>注册</title>
+    <link href="ico/icoc.ico" rel="icon">
+    <link href="register.css" rel="stylesheet">
 </head>
+
 <body>
+<div id="register">
+    <h2>注册</h2>
+    <div>
+        <form action="#" method="get" onsubmit="return validateCheckbox()">
+            <label for="rname">
+                <input class="name" name="rname" placeholder="请输入账户" type="text">
+            </label>
+
+            <label class="rpasswd" for="rpasswd">
+                <input class="passwd" name="rpasswd" placeholder="请输入密码" type="password">
+            </label>
+
+            <div class="okeyred">
+                <label class="ok" for="rgouxuan"> <input name="rgouxuan" type="checkbox" value="yes">
+                    我已阅读 <a href="https://baidu.com"> 详情</a></label>
+            </div>
+            <label for="zhuce"> <input class="zhu" type="submit" value="注册成为我的用户"></label>
+        </form>
+    </div>
+</div>
+
+<div id="img"></div>
 
 </body>
+
+<script>
+    function validateCheckbox() {
+        if (document.forms[0].rgouxuan.checked) {
+            return true;
+        } else {
+            alert("请勾选用户协议！");
+            return false;
+        }
+    }
+</script>
+
 </html>
