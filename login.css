@@ -1,4 +1,4 @@
-* {
+*/ * {
     margin: 0;
     padding: 0;
     text-decoration: none;
@@ -109,4 +109,3 @@ body {
 .box .register .a {
     color: #eab8c8;
 }
-

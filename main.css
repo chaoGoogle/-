@@ -1,3 +1,5 @@
+*/
+
 /* 通用样式 */
 * {
     padding: 0;
@@ -9,13 +11,12 @@
 
 /* 导航栏样式 */
 nav {
-    /*opacity: 0.5;*/
+
     float: left;
     position: fixed;
     top: 0.5%;
     height: 70px;
     width: 100%;
-    /*background-image: url(imags/bjtop.jpg);*/
     background-repeat: no-repeat;
     background-size: cover;
     font-family: HarmonyOS, serif;
@@ -28,7 +29,7 @@ nav {
     float: right;
     position: absolute;
     left: 50%;
-    /*margin-left: 50%;*/
+
 }
 
 /* 导航栏内列表项样式 */
