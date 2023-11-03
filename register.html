@@ -13,7 +13,7 @@
 </head>
 
 <body>
-    <div id="register">
+<div id="registerBox">
         <h2>注册</h2>
         <div>
             <form action="#" method="get" onsubmit="return validateCheckbox()">
@@ -26,10 +26,10 @@
                 </label>
 
                 <div class="okeyred">
-                    <label class="ok" for="rgouxuan"> <input name="rgouxuan" type="checkbox" value="yes">
+                    <label class="ok" for="rgouxuan"> <input class="okey1" name="rgouxuan" type="checkbox" value="yes">
                         我已阅读 <a href="https://baidu.com"> 详情</a></label>
                 </div>
-                <label for="zhuce"> <input class="zhu" type="submit" value="注册成为我的用户"></label>
+                <label for="zhuce"> <input class="zhu" type="submit" value="注册"></label>
             </form>
         </div>
     </div>
@@ -37,16 +37,5 @@
     <div id="img"></div>
 
 </body>
-
-<script>
-    function validateCheckbox() {
-        if (document.forms[0].rgouxuan.checked) {
-            return true;
-        } else {
-            alert("请勾选用户协议！");
-            return false;
-        }
-    }
-</script>
-
+<script src="register.js"></script>
 </html>

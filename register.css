@@ -23,7 +23,7 @@
 }
 
 /* 设置注册页面的绝对位置、旋转和缩放 */
-#register {
+#registerBox {
 
     position: absolute;
     top: 50%;
@@ -57,39 +57,59 @@ h2 {
 .name {
     position: absolute;
     top: 40%;
-    left: 27%;
+    left: 18%;
     border: transparent;
     background-color: transparent;
     border-bottom: 2px solid #fed6e3;
     outline: none;
-    width: 175px;
-    height: 30px;
+    width: 250px;
+    height: 40px;
+    transition: all 0.5s;
+
+}
+
+
+.name:hover {
+    transform: scale(1.1);
 }
 
 /* 设置密码的输入框样式，与上面相同 */
 .passwd {
     position: absolute;
-    top: 52%;
-    left: 27%;
+    top: 55%;
+    left: 18%;
     border: transparent;
     background-color: transparent;
     border-bottom: 2px solid #fed6e3;
     outline: none;
-    width: 175px;
-    height: 30px;
+    width: 250px;
+    height: 40px;
+
+    transition: all 0.5s;
 }
 
-/* 设置登录按钮的样式，包括宽度和高度、背景颜色、边框半径、边框颜色、边框大小 */
+.passwd:hover {
+    transform: scale(1.1);
+}
+
+/* 设置注册按钮的样式，包括宽度和高度、背景颜色、边框半径、边框颜色、边框大小 */
 .zhu {
-    width: 150px;
-    height: 50px;
-    background-color: pink;
+    top: 70%;
+    left: 25%;
+    width: 200px;
+    height: 40px;
+    font-family: "HarmonyOS";
+    background-image: linear-gradient(to top, #fddb92 0%, #d1fdff 100%);
     position: absolute;
-    top: 67%;
-    left: 30%;
     border-radius: 20px;
     border: transparent;
     outline: none;
+    transition: all 0.5s;
+}
+
+.zhu:hover {
+    transform: scale(1.2);
+
 
 }
 
@@ -99,10 +119,9 @@ h2 {
     top: 83%;
     left: 35%;
     font-size: 15px;
-
 }
 
 /* 将chekbox 属性框和字体水平线一齐*/
-.okeyred {
-    vertical-align: top;
-}
+.okey1 {
+    vertical-align: middle;
+}  
