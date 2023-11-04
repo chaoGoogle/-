@@ -18,7 +18,7 @@
     z-index: -999;
     width: 100%;
     height: 100%;
-    background-image: url(imags/IMG_20231014_183145.jpg);
+    background-image: url(imags/register.jpg);
     background-size: cover;
 }
 
@@ -124,4 +124,4 @@ h2 {
 /* 将chekbox 属性框和字体水平线一齐*/
 .okey1 {
     vertical-align: middle;
-}  
+}

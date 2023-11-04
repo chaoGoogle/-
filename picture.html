@@ -1,28 +1,64 @@
 <!DOCTYPE html>
 <html lang="zh">
+
 <head>
-    <meta content="no-cache, no-store, must-revalidate" http-equiv="Cache-Control"/>
-    <meta content="no-cache" http-equiv="Pragma"/>
-    <meta content="1" http-equiv="Expires"/>
+    <meta content="no-cache, no-store, must-revalidate" http-equiv="Cache-Control" />
+    <meta content="no-cache" http-equiv="Pragma" />
+    <meta content="1" http-equiv="Expires" />
     <meta charset="UTF-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <title>音乐播放器</title>
     <link href="music_player.css" rel="stylesheet">
-    <script src="music_player.js"></script>
     <link href="./ico/icoc.ico" rel="icon">
-</head>
-<body>
-<div id="player">
-    <!-- 音频元素 进入图集自动播放音乐  autoplay-->
-    <audio controls id="audio" src="music/兜兜转转.mp3"></audio>
-</div>
 
-<div id="player1">
-    <!-- 播放器按钮 -->
-    <button onclick="playPause()">播放</button>
-</div>
-<!---------------   背景                -->
-<div id="content"></div>
+</head>
+
+<body>
+
+    <!---------------  轮播背景 ----------- -->
+    <div id="wrap">
+        <!-- 图片列表 -->
+        <div class="img-list">
+
+            <img src="imags/1.jpg" />
+            <img src="imags/2.jpg" />
+            <img src="imags/1.jpg" />
+            <img src="imags/1.jpg" />
+
+        </div>
+
+        <!-- 小箭头 -->
+        <div class="arrow">
+            <a href="javascript:;" class="left">
+                < </a>
+                    <a href="javascript:;" class="right">></a>
+        </div>
+
+        <!-- 小圆点 -->
+        <ul class="circle-list">
+            <li class="circle active" data-n="0"></li>
+            <li class="circle" data-n="1"></li>
+            <li class="circle" data-n="2"></li>
+            <li class="circle" data-n="3"></li>
+
+        </ul>
+    </div>
+
+    <!-- ----------------js----------------- -->
+    <script src="music_player.js"></script>
+
+    <div id="player">
+        <!-- 音频元素 进入图集自动播放音乐  autoplay-->
+        <audio controls id="audio" src="music/兜兜转转.mp3"></audio>
+    </div>
+
+    <div id="player1">
+        <!-- 播放器按钮 -->
+        <button onclick="playPause()">播放</button>
+    </div>
+
+
 
 </body>
+
 </html>
