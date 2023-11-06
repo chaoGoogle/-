@@ -379,8 +379,8 @@ h5 {
 
 .A3box .a3 .p2 {
     position: absolute;
-    top: 66%;
-    left: 20%;
+    top: 75%;
+    left: 10%;
     font-family: "宋体";
     font-size: 20px;
     color: goldenrod;
@@ -428,7 +428,7 @@ h5 {
 
 .A3box .a4 .p2 {
     position: absolute;
-    top: 70%;
+    top: 75%;
     left: 20%;
     font-family: "宋体";
     font-size: 20px;
