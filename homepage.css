@@ -116,7 +116,7 @@ h5 {
     height: 800px;
     background-color: transparent;
     transition: all 1.5s;
-    background-color: rgb(255, 255, 255, 0.6);
+    background-color: rgb(255, 255, 255, 0.5);
 }
 
 #A2 ul:nth-child(1) {
@@ -220,20 +220,217 @@ h5 {
     height: 740px;
     background-color: transparent;
     transition: all 1.5s;
-    background-color: pink;
 
 }
 
 #A3 h2 {
 
-    font-size: 50px;
+    font-size: 100px;
     font-family: "宋体";
     color: #fb9968;
     font-weight: bolder;
     position: absolute;
-    top: 20%;
-    left: 40%;
+    top: 5%;
+    left: 38%;
 
 }
 
-/* -------------------- */
+.A3box {
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    width: 80%;
+    height: 500px;
+    background-color: rgb(255, 255, 255, 0.5);
+    border-radius: 20px;
+
+}
+
+/* -----------------摄影日记----------- */
+.A3box .a1 {
+    display: inline-block;
+    position: absolute;
+    width: 260px;
+    height: 500px;
+    background-image: url(/imags/3.jpg);
+    background-size: 300px 260px;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+}
+
+.A3box .a1:hover {
+    transition: all 0.5s;
+    transform: scale(0.9);
+}
+
+.A3box .a1 h3 {
+    position: absolute;
+    top: 60%;
+    left: 35%;
+    font-family: "宋体";
+    font-size: 20px;
+}
+
+.A3box .a1 .p1 {
+    position: absolute;
+    top: 70%;
+    left: 10%;
+    font-family: "宋体";
+    font-size: 20px;
+}
+
+
+.A3box .a1 .p2 {
+    position: absolute;
+    top: 82%;
+    left: 10%;
+    font-family: "宋体";
+    font-size: 20px;
+    color: goldenrod;
+}
+
+/* --------------CSDN博客--------------- */
+.A3box .a2 {
+    display: inline-block;
+    position: absolute;
+    left: 26%;
+    width: 260px;
+    height: 500px;
+    background-color: yellow;
+    background-image: url(/imags/th.jfif);
+    background-size: 260px 260px;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+}
+
+.A3box .a2:hover {
+    transition: all 0.5s;
+    transform: scale(0.9);
+}
+
+.A3box .a2 h3 {
+    position: absolute;
+    top: 60%;
+    left: 35%;
+    font-family: "宋体";
+    font-size: 20px;
+}
+
+
+.A3box .a2 .p1 {
+    position: absolute;
+    top: 68%;
+    left: 20%;
+    font-family: "宋体";
+    font-size: 20px;
+}
+
+
+.A3box .a2 .p2 {
+    position: absolute;
+    top: 76%;
+    left: 8%;
+    font-family: "宋体";
+    font-size: 20px;
+    color: goldenrod;
+}
+
+
+/* --------------GitHub博客--------------- */
+.A3box .a3 {
+    display: inline-block;
+    position: absolute;
+
+    left: 52%;
+    width: 260px;
+    height: 500px;
+    background-color: yellow;
+    background-image: url(/imags/github-mark.png);
+    background-size: 260px 260px;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+}
+
+.A3box .a3:hover {
+    transition: all 0.5s;
+    transform: scale(0.9);
+}
+
+.A3box .a3 h3 {
+    position: absolute;
+    top: 60%;
+    left: 35%;
+    font-family: "宋体";
+    font-size: 20px;
+}
+
+
+/* .A3box .a3 .p1 {
+    position: absolute;
+    top: 75%;
+    left: 65px;
+    font-family: "宋体";
+    font-size: 20px;
+} */
+
+
+.A3box .a3 .p2 {
+    position: absolute;
+    top: 66%;
+    left: 20%;
+    font-family: "宋体";
+    font-size: 20px;
+    color: goldenrod;
+}
+
+
+/* --------------跟我唠唠--------------- */
+.A3box .a4 {
+    display: inline-block;
+    position: absolute;
+    top: 0%;
+    left: 78%;
+    width: 260px;
+    height: 500px;
+    background-color: yellow;
+    background-image: url(/imags/wx.jfif);
+    background-size: 260px 260px;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+}
+
+.A3box .a4:hover {
+    transition: all 0.5s;
+    transform: scale(0.9);
+}
+
+.A3box .a4 h3 {
+    position: absolute;
+    top: 60%;
+    left: 35%;
+    font-family: "宋体";
+    font-size: 20px;
+}
+
+
+/* .A3box .a4 .p1 {
+    position: absolute;
+    top: 75%;
+    left: 65px;
+    font-family: "宋体";
+    font-size: 20px;
+} */
+
+
+.A3box .a4 .p2 {
+    position: absolute;
+    top: 70%;
+    left: 20%;
+    font-family: "宋体";
+    font-size: 20px;
+    color: goldenrod;
+}
