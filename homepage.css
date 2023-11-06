@@ -1,0 +1,239 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+
+.bground {
+    position: relative;
+    width: 100%;
+    /* height: 100%; */
+    background-image: url(imags/mybaground.jpg);
+    background-repeat: no-repeat;
+    position: fixed;
+
+    /* 有进度框 */
+    min-height: 770px;
+    overflow-y: auto;
+    max-height: 100%;
+
+    /* 平滑过度 */
+    transition: all 0.5s;
+    scroll-behavior: smooth;
+
+}
+
+
+img {
+    position: absolute;
+    display: inline-block;
+    left: 47%;
+    top: 20%;
+    width: 100px;
+    height: 100px;
+}
+
+.bgimg li:nth-child(2) {
+    position: absolute;
+    left: 35%;
+    top: 39%;
+}
+
+h2 {
+    font-size: 25px;
+    font-family: "宋体";
+    color: #ed4845;
+}
+
+.bgimg li:nth-child(3) {
+    position: absolute;
+    display: inline-block;
+    left: 33%;
+    top: 45%;
+    width: 500px;
+    height: 3px;
+    background-color: rgb(229, 217, 217);
+}
+
+.bgimg li:nth-child(4) {
+    display: inline-block;
+    position: absolute;
+    top: 55%;
+    left: 48%;
+
+}
+
+h5 {
+    font-family: "宋体";
+    font-size: 25px;
+    color: black;
+}
+
+.bgimg li:nth-child(5) {
+    display: inline-block;
+    position: absolute;
+    top: 64%;
+    left: 39%;
+    font-family: "宋体";
+}
+
+.bgimg li:nth-child(6) {
+    display: inline-block;
+    position: absolute;
+    top: 90%;
+    left: 47.5%;
+    font-family: "宋体";
+    font-size: 25px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+
+}
+
+.qiehuan1 {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    line-height: 60px;
+    border: 2px solid #fff;
+    left: 40%;
+}
+
+.qiehuan1:hover {
+
+    background-color: #fb9968;
+}
+
+#A2 {
+
+    position: absolute;
+    top: 120%;
+    width: 100%;
+    height: 800px;
+    background-color: transparent;
+    transition: all 1.5s;
+    background-color: rgb(255, 255, 255, 0.6);
+}
+
+#A2 ul:nth-child(1) {
+
+    width: 100%;
+    height: 30px;
+    position: absolute;
+    top: 10%;
+    left: 47%;
+
+}
+
+#A2 .hengxian {
+    position: absolute;
+    top: 15%;
+    left: 5%;
+    width: 90%;
+    height: 10px;
+
+    border: transparent;
+    border-bottom: 5px dotted rgb(255, 174, 0);
+}
+
+#A2 .ziliao {
+    font-size: 23px;
+    position: absolute;
+    top: 25%;
+    left: 10%;
+    font-family: "宋体";
+    font-weight: bolder;
+}
+
+#A2 .ziliaoimg {
+    position: absolute;
+    top: 40%;
+    left: 15%;
+
+
+}
+
+.ziliaoimg img {
+    border-radius: 50%;
+    width: 400px;
+    height: 400px;
+}
+
+.top {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    position: absolute;
+    top: 85%;
+    left: 92%;
+    position: fixed;
+    line-height: 50px;
+}
+
+.ziliaoxinxi {
+
+    position: relative;
+    top: 35%;
+    left: 35%;
+    width: 500px;
+    height: 300px;
+}
+
+
+.top:hover {
+    background-color: #fb9968;
+}
+
+.ziliaoxinxi li {
+    font: 25px "宋体";
+    margin: 20px;
+    color: #fb9968;
+    font-weight: bolder;
+}
+
+.qiehuan2 {
+    position: absolute;
+    top: 84%;
+    left: 49.5%;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    line-height: 60px;
+    border: 2px solid #fff;
+
+}
+
+.qiehuan2:hover {
+
+    background-color: #fb9968;
+}
+
+#A3 {
+    position: absolute;
+    top: 230%;
+    width: 100%;
+    height: 740px;
+    background-color: transparent;
+    transition: all 1.5s;
+    background-color: pink;
+
+}
+
+#A3 h2 {
+
+    font-size: 50px;
+    font-family: "宋体";
+    color: #fb9968;
+    font-weight: bolder;
+    position: absolute;
+    top: 20%;
+    left: 40%;
+
+}
+
+/* -------------------- */

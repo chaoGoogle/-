@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+.mybaground {
+    /* position: relative; */
+    margin: 1px auto;
+    width: 100%;
+    height: 100%;
+    background-image: url(imags/mybaground.jpg);
+    background-repeat: no-repeat;
+    position: fixed;
+
+}
+
+.mybaground .mybg {
+    position: relative;
+    left: 5%;
+    top: 10%;
+    width: 90%;
+    height: 100%;
+    background-color: rgb(255, 255, 255, 0.5);
+    border-radius: 20px;
+}
+
+.left {
+    position: fixed;
+    width: 400px;
+    height: 100%;
+    background-color: rgb(255, 255, 255, 0.6);
+    border-radius: 20px 0 0 0;
+
+}
+
+.left .touxiaang {
+    position: absolute;
+    top: 10%;
+    left: 40%;
+}
+
+.left h2 {
+    position: absolute;
+    top: 20%;
+    left: 35%;
+}
+
+.box {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    top: 30%;
+
+
+}
+
+
+ul li {
+    display: inline-block;
+    width: 100%;
+    height: 70px;
+    line-height: 70px;
+    border: 1px solid rgb(255, 255, 255);
+}
+
+
+a {
+    display: block;
+    width: 100%;
+    height: 100%;
+
+}
+
+a:hover {
+    background-color: rgb(201, 201, 232);
+}
+
+.right {
+    position: absolute;
+    left: 31%;
+    border-radius: 0 20px 0 0;
+    width: 69%;
+
+
+    min-height: 250px;
+    overflow-y: auto;
+    max-height: 800px;
+}
+
+
+.right div img {
+    border-radius: 0 20px 0 0;
+    width: 100%;
+    height: 400px;
+
+}
+
+.title {
+    width: 100%;
+    height: 50px;
+    font-family: "微软雅黑";
+    font-size: 20px;
+    padding: 10px;
+    text-align: center;
+    line-height: 30px;
+
+}
