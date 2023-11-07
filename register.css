@@ -46,7 +46,7 @@
 
 /* 设置注册页面的标题字体和大小 */
 h2 {
-    font-family: "HarmonyOS";
+    font-family: "HarmonyOS", serif;
     position: absolute;
     top: 15%;
     left: 35%;
@@ -98,7 +98,7 @@ h2 {
     left: 25%;
     width: 200px;
     height: 40px;
-    font-family: "HarmonyOS";
+    font-family: "HarmonyOS", serif;
     background-image: linear-gradient(to top, #fddb92 0%, #d1fdff 100%);
     position: absolute;
     border-radius: 20px;

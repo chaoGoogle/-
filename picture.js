@@ -87,8 +87,7 @@ oCircle.addEventListener("click", (e) => {
     // 当我点击小圆点的时候
     if (e.target.nodeName.toLowerCase() === "li") {
         // 当前元素的data-n对应得值 和index一一对应
-        const n = Number(e.target.getAttribute("data-n"));
-        index = n;
+        index = Number(e.target.getAttribute("data-n"));
         setCircles();
         oImgList.style.transition = "0.5s ease";
         oImgList.style.left = index * -1000 + "px";
