@@ -167,10 +167,9 @@ h5 {
     height: 50px;
     border-radius: 50%;
     border: 2px solid #fff;
-    position: absolute;
     top: 85%;
     left: 92%;
-
+    position: fixed;
     line-height: 50px;
 }
 
