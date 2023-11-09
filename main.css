@@ -4,7 +4,6 @@
     margin: 0;
     text-decoration: none;
     list-style: none;
-
 }
 
 /* 设置欢迎页面的显示方式、居中方式、对齐方式、宽度、高度、字体加粗和背景图片 */
@@ -22,7 +21,6 @@
 
 /* 导航栏样式 */
 nav {
-
     float: left;
     position: fixed;
     top: 0.5%;
@@ -35,7 +33,6 @@ nav {
 
 /* 导航栏内列表样式 */
 .nav {
-
     width: 50%;
     float: right;
     position: absolute;
@@ -59,7 +56,6 @@ li:hover {
     backdrop-filter: blur(5px);
     transform: scale(0.8);
     background-color: rgba(255, 255, 255, 0.5);
-
 
 }
 
@@ -90,8 +86,6 @@ a {
     }
 
     .nav li {
-
-        /*width: 50%;*/
         float: none;
         margin: 0;
         padding: 0;
@@ -99,11 +93,8 @@ a {
 
     /* 当鼠标悬停在列表项上时，背景颜色变为透明 */
     .nav li:hover {
-        /*background-color: transparent;*/
-        /* backdrop-filter: blur(6px);*/
         background-color: pink;
     }
-
 
     a {
         display: inline-block;
@@ -111,7 +102,26 @@ a {
         width: 100%;
         text-decoration: none;
         color: #29b442;
+    }
 
+    .welcome li {
+        color: blue;
+        font-size: 30px;
+    }
+
+    article div .li1 {
+        display: inline-block;
+        justify-content: center;
+        align-items: center;
+        width: 50%;
+        height: 50%;
+        margin: 0 auto;
+        font-family: "宋体", serif;
+        font-size: 50px;
+        color: #Ffcc00;
+        text-align: center;
+        font-weight: bold;
+        pointer-events: none;
     }
 
 }
@@ -125,8 +135,8 @@ a {
     height: 60px;
     border-radius: 50%;
     background-image: url(imags/toux.png);
+    pointer-events: none;
 }
-
 
 /* 设置.nav li的第7个元素的样式 */
 .nav li:nth-child(7) {
@@ -143,11 +153,11 @@ a {
     height: 30px;
     /* 设置字体加粗，颜色为白色，字体大小为20px，字体为"鸿蒙"，防止元素被点击时产生事件 */
     font-weight: 400;
-    color: whitesmoke;
     font-size: 20px;
-    font-family: "HarmonyOS", serif;
+    font-family: "宋体", serif;
     /* 设置元素不能被点击 */
     pointer-events: none;
+    color: #96fbc4;
 }
 
 .sousuo {
@@ -175,6 +185,11 @@ a {
     border: transparent;
 }
 
+.tijiao:hover {
+    transition: all 0.5s;
+    transform: scale(0.9);
+}
+
 /*中心内容区*/
 article div {
     position: absolute;
@@ -184,20 +199,20 @@ article div {
 }
 
 /* 设置内容去的文字的显示方式、居中方式、对齐方式、水平居中和垂直居中、字体和字体大小 */
-article div span {
-    display: block;
+article div .li1 {
+    display: inline-block;
     justify-content: center;
     align-items: center;
-    left: 50%;
-    height: 20px;
+    width: 100%;
+    height: 50%;
     margin: 0 auto;
     font-family: "宋体", serif;
     font-size: 50px;
     color: #Ffcc00;
     text-align: center;
     font-weight: bold;
+    pointer-events: none;
 }
-
 
 @font-face {
     font-family: 'HarmonyOS';
@@ -205,10 +220,9 @@ article div span {
 }
 
 /* 网页底部版权属性 */
-.footer-left p {
+.footer {
     position: absolute;
-    top: 97%;
-    bottom: 0;
+    top: 96%;
     width: 100%;
     height: 30px;
     color: rgb(204, 144, 144);

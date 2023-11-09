@@ -7,7 +7,6 @@
 }
 
 .mybaground {
-    /* position: relative; */
     margin: 1px auto;
     width: 100%;
     height: 100%;
@@ -101,7 +100,7 @@ a:hover {
 .title {
     width: 100%;
     height: 50px;
-    font-family: "微软雅黑";
+    font-family: "微软雅黑", serif;
     font-size: 20px;
     padding: 10px;
     text-align: center;

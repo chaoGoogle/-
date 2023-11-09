@@ -19,7 +19,7 @@
     max-height: 100%;
 
     /* 平滑过度 */
-    transition: all 0.5s;
+    transition: 1s;
     scroll-behavior: smooth;
 
 }
