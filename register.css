@@ -125,3 +125,29 @@ h2 {
 .okey1 {
     vertical-align: middle;
 }
+
+@media screen and (max-width: 768px) {
+
+    /* 设置注册页面的绝对位置、旋转和缩放 */
+    #registerBox {
+
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+
+        /* 设置注册页面的宽度和高度，并设置边框半径 */
+        width: 400px;
+        height: 500px;
+        border-radius: 20px;
+
+        /* 设置注册页面的显示方式为 flex 布局，并居中显示 */
+        display: flex;
+        justify-content: center;
+
+        /* 设置背景颜色为从上到下的渐变，颜色为浅蓝色和深蓝色 */
+        background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
+
+    }
+
+}
