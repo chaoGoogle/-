@@ -135,7 +135,7 @@ a {
     height: 60px;
     border-radius: 50%;
     background-image: url(imags/toux.png);
-    pointer-events: none;
+    /*pointer-events: none;*/
 }
 
 /* 设置.nav li的第7个元素的样式 */
@@ -158,6 +158,12 @@ a {
     /* 设置元素不能被点击 */
     pointer-events: none;
     color: #96fbc4;
+}
+
+/*     头像鼠标悬浮时放大*/
+.nav li:nth-child(6):hover {
+    transition: 1s;
+    transform: scale(1.2);
 }
 
 .sousuo {
