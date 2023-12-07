@@ -18,8 +18,9 @@
     overflow-y: auto;
     max-height: 100%;
 
-    /* 平滑过度 */
+    /* 设置过渡时间 */
     transition: 1s;
+    /* 设置滚动行为为平滑 */
     scroll-behavior: smooth;
 
 }
@@ -98,6 +99,7 @@ h5 {
     border-radius: 50%;
     line-height: 60px;
     border: 2px solid #fff;
+    top: -100%;
     left: 40%;
 }
 
@@ -146,6 +148,7 @@ h5 {
     left: 10%;
     font-family: "宋体", serif;
     font-weight: bolder;
+    color: #4848bb;
 }
 
 #A2 .ziliaoimg {
@@ -158,8 +161,8 @@ h5 {
 
 .ziliaoimg img {
     border-radius: 50%;
-    width: 400px;
-    height: 400px;
+    width: 300px;
+    height: 300px;
 }
 
 .top {
@@ -189,13 +192,14 @@ h5 {
 .ziliaoxinxi li {
     font: 25px "宋体";
     margin: 20px;
-    color: #fb9968;
+    /*#fb9968*/
+    color: #4848bb;
     font-weight: bolder;
 }
 
 .qiehuan2 {
     position: absolute;
-    top: 84%;
+    top: 80%;
     left: 49.5%;
     width: 60px;
     height: 60px;
@@ -380,7 +384,7 @@ h5 {
 .A3box .a4 {
     display: inline-block;
     position: absolute;
-    left: 78%;
+    left: 77%;
     width: 260px;
     height: 500px;
     background-image: url(imags/wx.jfif);

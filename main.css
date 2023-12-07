@@ -14,7 +14,7 @@
     width: 100%;
     height: 100%;
     font-weight: bold;
-    background-image: url(imags/gril.jpg);
+    background-image: url(imags/bg.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
@@ -52,7 +52,6 @@ nav {
 
 /* 鼠标悬停时列表项背景颜色 */
 li:hover {
-
     backdrop-filter: blur(5px);
     transform: scale(0.8);
     background-color: rgba(255, 255, 255, 0.5);
@@ -228,7 +227,7 @@ article div .li1 {
 /* 网页底部版权属性 */
 .footer {
     position: absolute;
-    top: 96%;
+    top: 95%;
     width: 100%;
     height: 30px;
     color: rgb(204, 144, 144);
