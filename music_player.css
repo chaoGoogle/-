@@ -68,7 +68,7 @@ body {
     width: 99%;
     height: 100%;
     z-index: inherit;
-    top: 0%;
+    top: 0;
     background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
 }
 

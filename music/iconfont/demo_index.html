@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="">
 <head>
     <meta charset="utf-8"/>
     <title>iconfont Demo</title>
@@ -27,21 +27,13 @@
             align-items: center;
         }
 
-        .main .logo .sub-title {
-            margin-left: 0.5em;
-            font-size: 22px;
-            color: #fff;
-            background: linear-gradient(-45deg, #3967FF, #B500FE);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-        }
     </style>
 </head>
 <body>
 <div class="main">
     <h1 class="logo"><a href="https://www.iconfont.cn/" target="_blank" title="iconfont 首页">
         <img src="https://img.alicdn.com/imgextra/i3/O1CN01Mn65HV1FfSEzR6DKv_!!6000000000514-55-tps-228-59.svg"
-             width="200">
+             alt="" width="200">
 
     </a></h1>
     <div class="nav-tabs">
@@ -272,7 +264,7 @@
             var index = $(this).index()
 
             if ($(this).hasClass('active')) {
-                return
+
             } else {
                 $('#tabs li').removeClass('active')
                 $(this).addClass('active')
