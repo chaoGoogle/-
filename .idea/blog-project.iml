@@ -8,8 +8,10 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="cube" level="application" />
-    <orderEntry type="library" name="7bfddb60-08e8-11e9-9b04-53e73bb6408b" level="application" />
     <orderEntry type="library" name="a3f714d0-08e6-11e9-8a15-ebf944d7534c" level="application" />
+    <orderEntry type="library" name="7bfddb60-08e8-11e9-9b04-53e73bb6408b" level="application" />
+    <orderEntry type="library" name="cube" level="application" />
+    <orderEntry type="library" name="jquery-3.2.1" level="application" />
+    <orderEntry type="library" name="sakuraPlus" level="application" />
   </component>
 </module>
