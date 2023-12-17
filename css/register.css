@@ -10,7 +10,7 @@
 /* 定义一个名为 "HarmonyOS" 的字体，并指定其源为 "HarmonyOS_Sans.ttf" */
 @font-face {
     font-family: 'HarmonyOS';
-    src: url("HarmonyOS_Sans.ttf");
+    src: url("../HarmonyOS_Sans.ttf");
 }
 
 #img {
@@ -18,7 +18,7 @@
     z-index: -999;
     width: 100%;
     height: 100%;
-    background-image: url(imags/register.jpg);
+    background-image: url(../imags/register.jpg);
     background-size: cover;
 }
 

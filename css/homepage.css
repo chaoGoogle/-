@@ -9,7 +9,7 @@
 
 .bground {
     width: 100%;
-    background-image: url(imags/mybaground.jpg);
+    background-image: url(../imags/mybaground.jpg);
     background-repeat: no-repeat;
     position: fixed;
 
@@ -253,7 +253,7 @@ h5 {
     position: absolute;
     width: 260px;
     height: 500px;
-    background-image: url(imags/3.jpg);
+    background-image: url(../imags/3.jpg);
     background-size: 300px 260px;
     background-repeat: no-repeat;
     border-radius: 20px;
@@ -297,7 +297,7 @@ h5 {
     left: 26%;
     width: 260px;
     height: 500px;
-    background-image: url(imags/th.jfif);
+    background-image: url(../imags/th.jfif);
     background-size: 260px 260px;
     background-repeat: no-repeat;
     border-radius: 20px;
@@ -343,7 +343,7 @@ h5 {
     width: 260px;
     height: 500px;
 
-    background-image: url(imags/github-mark.png);
+    background-image: url(../imags/github-mark.png);
     background-size: 260px 260px;
     background-repeat: no-repeat;
     border-radius: 20px;
@@ -387,7 +387,7 @@ h5 {
     left: 77%;
     width: 260px;
     height: 500px;
-    background-image: url(imags/wx.jfif);
+    background-image: url(../imags/wx.jfif);
     background-size: 260px 260px;
     background-repeat: no-repeat;
     border-radius: 20px;

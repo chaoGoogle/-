@@ -15,7 +15,7 @@ body {
 
     /* 设置背景颜色为天蓝色 */
     /* background-color: skyblue; */
-    background-image: url("imags/login_bg.jpg");
+    background-image: url("../imags/login_bg.jpg");
 
 }
 
