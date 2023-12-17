@@ -2,9 +2,9 @@
 <html lang="zh ">
 
 <head>
-    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
-    <meta http-equiv="Pragma" content="no-cache" />
-    <meta http-equiv="Expires" content="1" />
+    <meta content="no-cache, no-store, must-revalidate" http-equiv="Cache-Control"/>
+    <meta content="no-cache" http-equiv="Pragma"/>
+    <meta content="1" http-equiv="Expires"/>
     <meta charset="UTF-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <title>注册</title>
@@ -14,29 +14,30 @@
 </head>
 
 <body>
-    <div id="registerBox">
-        <h2>注册</h2>
-        <div>
-            <form action="#" method="get" onsubmit="return validateCheckbox()">
-                <label for="rname">
-                    <input class="name" name="rname" placeholder="请输入账户" type="text" required>
-                </label>
+<div id="registerBox">
+    <h2>注册</h2>
+    <div>
+        <form action="#" method="get" onsubmit="return validateCheckbox()">
+            <label for="rname">
+                <input class="name" name="rname" placeholder="请输入账户" required type="text">
+            </label>
 
-                <label class="rpasswd" for="rpasswd">
-                    <input class="passwd" name="rpasswd" placeholder="请输入密码" type="password" required>
-                </label>
+            <label class="rpasswd" for="rpasswd">
+                <input class="passwd" name="rpasswd" placeholder="请输入密码" required type="password">
+            </label>
 
-                <div class="okeyred">
-                    <label class="ok" for="rgouxuan"> <input class="okey1" name="rgouxuan" type="checkbox" value="yes">
-                        我已阅读 <a href="https://baidu.com"> 详情</a></label>
-                </div>
-                <label for="zhuce"> <input class="zhu" type="submit" value="注册"></label>
-            </form>
+            <div class="okeyred">
+                <label class="ok" for="rgouxuan"> <input class="okey1" name="rgouxuan" type="checkbox" value="yes">
+                    我已阅读 <a href="https://baidu.com"> 详情</a></label>
+            </div>
+            <label for="zhuce"> <input class="zhu" type="submit" value="注册"></label>
+        </form>
+        <div class="dalog">
+            <a href="login.html">已有账号？</a>
         </div>
     </div>
-
-    <div id="img"></div>
-
+</div>
+<div id="img"></div>
 </body>
 <div class="mydiv"></div>
 <script src="../JS/xiaoxinxin.js"></script>

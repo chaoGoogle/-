@@ -150,3 +150,9 @@ h2 {
     }
 
 }
+
+.dalog {
+    position: absolute;
+    top: 90%;
+    left: 40%;
+}
